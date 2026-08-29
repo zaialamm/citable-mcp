@@ -1,0 +1,51 @@
+{
+  "name": "citable-mcp",
+  "version": "0.6.3",
+  "mcpName": "io.github.zaialamm/citable-mcp",
+  "description": "MCP server for Citable — SEO and AI-visibility data agents can buy. Tools pay for themselves in USDC on Solana via x402. No API key, nothing stored about you.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "citable-mcp": "dist/server.js"
+  },
+  "files": [
+    "dist/server.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20.18"
+  },
+  "scripts": {
+    "build": "bun build.ts",
+    "prepublishOnly": "bun build.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@solana/kit": "^7.0.0",
+    "@x402/core": "^2.20.0",
+    "@x402/fetch": "^2.20.0",
+    "@x402/svm": "^2.20.0",
+    "zod": "^4.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaialamm/citable-mcp.git"
+  },
+  "homepage": "https://citable.run",
+  "bugs": "https://github.com/zaialamm/citable-mcp/issues",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "seo",
+    "ai-visibility",
+    "geo",
+    "x402",
+    "solana",
+    "usdc",
+    "claude",
+    "cursor",
+    "codex",
+    "agents",
+    "ai-agents"
+  ]
+}
