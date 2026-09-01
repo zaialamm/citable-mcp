@@ -30,6 +30,19 @@ Cursor, Claude Desktop, or any MCP client — `mcp.json`:
 
 Node ≥ 20.18, or `bunx citable-mcp`.
 
+## Skills
+
+The server gives the agent the tools; the open-source
+[skills pack](https://github.com/zaialamm/seo-ai-visibility-skills) teaches it the workflows —
+a guided `start`, citability audits that apply fixes in your code, keyword briefs, rank
+tracking with history in your repo, AI-citation checks, and a `full-check` that runs end to
+end under one budget consent. 13 skills, 5 of them free.
+
+```bash
+npx skills add zaialamm/seo-ai-visibility-skills          # any agent: Codex, Cursor, Gemini CLI, 17+
+/plugin marketplace add zaialamm/seo-ai-visibility-skills # Claude Code plugin (bundles this server)
+```
+
 ## Wallet
 
 Start with `citable_prices` — it reports the wallet, its balance, and how to fund it. Two ways:

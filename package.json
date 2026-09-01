@@ -1,6 +1,6 @@
 {
   "name": "citable-mcp",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "mcpName": "io.github.zaialamm/citable-mcp",
   "description": "MCP server for Citable — SEO and AI-visibility data agents can buy. Tools pay for themselves in USDC on Solana via x402. No API key, nothing stored about you.",
   "license": "MIT",
